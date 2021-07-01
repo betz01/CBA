@@ -1,0 +1,136 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 5,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 5,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1625137047549,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1625137064006,
+        "runtime": 15467,
+        "slow": true,
+        "start": 1625137048539
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\pkbet\\OneDrive\\Desktop\\platform\\UI\\Tests\\BusChallenge.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Bus challenge Tests",
+            "Verifies the flow for Correct Answer"
+          ],
+          "duration": 439,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Bus challenge Tests Verifies the flow for Correct Answer Verify user is created and navigated to CovidPage successfully ",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Verify user is created and navigated to CovidPage successfully "
+        },
+        {
+          "ancestorTitles": [
+            "Bus challenge Tests",
+            "Verifies the flow for Correct Answer"
+          ],
+          "duration": 2223,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Bus challenge Tests Verifies the flow for Correct Answer Verify user answer is correct for Bus challenge",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Verify user answer is correct for Bus challenge"
+        },
+        {
+          "ancestorTitles": [
+            "Bus challenge Tests",
+            "Verifies the flow for Correct Answer"
+          ],
+          "duration": 816,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Bus challenge Tests Verifies the flow for Correct Answer Verify user is navigated to the leaderboard page to check score",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Verify user is navigated to the leaderboard page to check score"
+        },
+        {
+          "ancestorTitles": [
+            "Bus challenge Tests",
+            "Verifies the flow for InCorrect Answer"
+          ],
+          "duration": 396,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Bus challenge Tests Verifies the flow for InCorrect Answer Verify user is created successfully ",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Verify user is created successfully "
+        },
+        {
+          "ancestorTitles": [
+            "Bus challenge Tests",
+            "Verifies the flow for InCorrect Answer"
+          ],
+          "duration": 2326,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Bus challenge Tests Verifies the flow for InCorrect Answer Verify user answer is incorrect for Bus challenge",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Verify user answer is incorrect for Bus challenge"
+        }
+      ],
+      "failureMessage": null,
+      "displayName": {
+        "name": "browser: chromium",
+        "color": "yellow"
+      }
+    }
+  ],
+  "wasInterrupted": false
+}

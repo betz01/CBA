@@ -1,0 +1,21 @@
+{
+  "name": "superheroes.supervillain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "regressionAPI": "jest -c ./Configs/SuperVillain.config.js -t=regression",
+    "regressionUI": "jest -c ./Configs/SuperVillain.config.js BusChallenge.test.js"
+  },
+  "keywords": [],
+  "author": "Betsy Kenny",
+  "devDependencies": {
+    "faker": "^5.1.0",
+    "jest": "^26.4.2",
+    "jest-extended": "^0.11.5",
+    "jest-playwright-preset": "^1.6.1",
+    "jest-stare": "^2.2.0",
+    "playwright": "^1.12.3",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {}
+}
