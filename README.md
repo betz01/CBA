@@ -1,8 +1,9 @@
-# SuperHeroes and SuperVillain
+This repo contains UI and API tests for SuperHeroes and SuperVillain project.
+- [SuperHeroes.SuperVillain](https://github.com/betz01/CBA/tree/main/SuperHeroes.SuperVillain) contains the Test Framework.
+- [ReportsUI](https://github.com/betz01/CBA/tree/main/ReportsUI) contains a sample `index.html` report for UI tests.
+- [ReportsAPI](https://github.com/betz01/CBA/tree/main/ReportsAPI) contains a sample `index.html` report for API tests.
 
-This repo contains the UI and API tests for SuperHeroes and SuperVillain project.
-
-## Table of contents
+## SuperHeroes.SuperVillain contents
 
 - [Automation Test Framework](#automation-test-framework)
   - [Tools](#tools)
@@ -47,11 +48,9 @@ These are the API tests based on the [Swagger](https://supervillain.herokuapp.co
 
 - To run the tests and generate reports `npm run regressionAPI --reporters`. Reports are generated in `SuperVillain/Reports/index.html`.
 - There are some known failures in `DELETE /user` and `PUT /user`.
-- [API Test Reports](https://github.com/betz01/CBA/ReportsAPI)
 
 ## UI Tests
 
 These are the UI tests for [Responsive fight](https://responsivefight.herokuapp.com/).
 
-- To run the tests and generate reports `npm run regressionUI --reporters`. Reports are generated in `SuperVillain/Reports/index.html`.
-- [UI Test Reports](https://github.com/betz01/CBA/ReportsUI)
+- To run the tests and generate reports `npm run regressionUI --reporters`. Reports are generated in `SuperVillain/Reports/index.html`.- 
